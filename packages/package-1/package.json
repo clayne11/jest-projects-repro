@@ -1,0 +1,31 @@
+{
+  "name": "package-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.5",
+    "typescript": "^2.3.3"
+  },
+  "jest": {
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+      ".*": "babel-jest"
+    },
+    "testRegex": ".*-spec\\.(ts|tsx|js|jsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
