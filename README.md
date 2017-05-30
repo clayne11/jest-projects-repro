@@ -1,5 +1,7 @@
 # Installation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clayne11/jest-projects-repro.svg)](https://greenkeeper.io/)
+
 `yarn run bootstrap`
 
 # Tests
